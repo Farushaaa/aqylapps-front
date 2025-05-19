@@ -1,0 +1,9 @@
+{
+  "SignIn": {
+    "log_in_profile": "Войти в профиль",
+    "forget_password": "Забыли пароль",
+    "login_button": "Войти",
+    "emailInput_placeholder": "Введите электронную почту",
+    "passwordInput_placeholder": "Введите пароль"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "SignIn": {
+    "log_in_profile": "Log in to profile",
+    "forget_password": "Forgot password",
+    "login_button": "Log in",
+    "emailInput_placeholder": "Enter your email",
+    "passwordInput_placeholder": "Enter your password"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "SignIn": {
+    "log_in_profile": "Профильге кіру",
+    "forget_password": "Құпиясөзді ұмыттым",
+    "login_button": "Кіру",
+    "emailInput_placeholder": "Электрондық поштаңызды енгізіңіз",
+    "passwordInput_placeholder": "Құпиясөзіңізді енгізіңіз"
+  }
+}
