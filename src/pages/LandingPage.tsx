@@ -1,10 +1,15 @@
 //import { Link } from "react-router-dom";
 import Navbar from "../components/landingPageComponents/Navbar";
-
+import Hero from "../components/landingPageComponents/Hero";
+import HeroTwo from "../components/landingPageComponents/HeroTwo.tsx";
+import Services from "../components/landingPageComponents/Services.tsx";
 const LandingPage = () => {
   return (
     <div>
       <Navbar />
+        <Hero/>
+        <HeroTwo/>
+      <Services/>
     </div>
   );
 };

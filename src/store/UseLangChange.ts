@@ -10,7 +10,7 @@ export const UseLangChange = create<ILangChange>()(
   persist(
     (set) => ({
       language: "ru",
-      setLanguage: (lang: string) =>
+    setLanguage: (lang: string) =>
         set(() => ({
           language: lang,
         })),

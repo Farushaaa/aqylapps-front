@@ -1,16 +1,20 @@
-import AqylappsLogoBlack from "../../assets/images/AqylappsLogoBlack.jpg";
+import AqylappsLogoBlack from "../../assets/images/AqylappsLogoBlack.svg";
 import { navbarElements } from "../../constants/navbarElements";
+// import {UseLangChange} from "../../store/UseLangChange.ts";
+
 const Navbar = () => {
+    // const language = UseLangChange((state)=>state.language);
+
   return (
-    <div className="flex flex-row justify-between w-[90%] m-auto  border mt-5 p-2 items-center ">
+    <div className="flex flex-row justify-between w-[90%] m-auto mt-5 p-2 items-center ">
       <div>
         <img src={AqylappsLogoBlack} alt="" />
       </div>
-      <div className="flex flex-row justify-between mx-3 items-center">
+      <div className="flex flex-row justify-between mx-3 items-center gap-5">
         {navbarElements.map((el) => (
-          <p className="mr-3">{el.element_ru}</p>
+          <p className="cursor-pointer">{el.element_ru}</p>
         ))}
-        <button className="border rounded-md px-2 py-2 ml-2 bg-[#220154] text-white">
+        <button className=" rounded-md px-2 py-2 ml-2 bg-[#220154] text-white">
           Подключить
         </button>
       </div>
